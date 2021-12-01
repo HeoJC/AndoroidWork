@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Widget</string>
+    <string name="app_name">계산기</string>
+    <string name="button17">+</string>
+    <string name="button4">-</string>
+    <string name="button8">*</string>
+    <string name="button11">/</string>
 </resources>
