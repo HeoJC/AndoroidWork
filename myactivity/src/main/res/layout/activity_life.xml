@@ -8,7 +8,7 @@
     tools:context=".LifeActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtName"
         android:layout_width="147dp"
         android:layout_height="154dp"
         android:gravity="center"

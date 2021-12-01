@@ -14,7 +14,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
-import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button button2 = findViewById(R.id.button2) ; // 등록
         Button button3 = findViewById(R.id.button3) ; // 삭제
         Button button4 = findViewById(R.id.button4) ; // 전체조회
-        TextView textView = findViewById(R.id.textView) ;
+        TextView textView = findViewById(R.id.txtName) ;
         TextView editTextTextPersonName = findViewById(R.id.editTextTextPersonName) ;
 
         RequestQueue queue = Volley.newRequestQueue(this) ;
