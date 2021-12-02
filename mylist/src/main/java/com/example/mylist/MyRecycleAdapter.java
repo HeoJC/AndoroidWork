@@ -12,14 +12,15 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class MyRecycleAdapter extends RecyclerView.Adapter<MyRecycleAdapter.MyHolder>{
-    ArrayList<Map<String , String>> data ;
+
+    ArrayList<MemoVO> data ;
 
     public MyRecycleAdapter() {}
-    public MyRecycleAdapter(ArrayList<Map<String, String>> data) {
+    public MyRecycleAdapter(ArrayList<MemoVO> data) {
         this.data = data;
     }
 
-    public void setData(ArrayList<Map<String, String>> data) {
+    public void setData(ArrayList<MemoVO> data) {
         this.data = data;
     }
 
@@ -34,8 +35,8 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<MyRecycleAdapter.MyHo
 
     @Override
     public void onBindViewHolder(@NonNull MyHolder holder, int position) {
-        holder.txtName.setText(data.get(position).get("name")) ;
-        holder.txtAddr.setText(data.get(position).get("addr")) ;
+        holder.txtName.setText(data.get(position).getTitle()) ;
+        holder.txtAddr.setText(data.get(position).getContent()) ;
     }
 
     @Override

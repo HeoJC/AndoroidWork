@@ -1,5 +1,6 @@
 package com.example.mylist;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -12,31 +13,33 @@ import java.util.Map;
 
 public class RecycleActivity extends AppCompatActivity {
     RecyclerView recycleView ;
-    ArrayList<Map<String , String>> list = new ArrayList<>() ;
+    ArrayList<MemoVO> list = new ArrayList<>() ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycle);
 
-        Map<String , String> map = new HashMap<String , String>() ;
-        map.put("name" , "홍길동") ; map.put("addr" , "대구") ;
-        list.add(map) ;
-        map = new HashMap<String , String>() ;
-        map.put("name" , "김길동") ; map.put("addr" , "부산") ;
-        list.add(map) ;
-        map = new HashMap<String , String>() ;
-        map.put("name" , "박길동") ; map.put("addr" , "서울") ;
-        list.add(map) ;
-        map = new HashMap<String , String>() ;
-        map.put("name" , "박길동") ; map.put("addr" , "서울") ;
-        list.add(map) ;
+        list = new ArrayList<MemoVO>() ;
+        MemoVO memoVO = new MemoVO() ;
+        memoVO.setTitle("java") ; memoVO.setContent("java content") ;
+        list.add(memoVO) ;
+        memoVO = new MemoVO() ;
+        memoVO.setTitle("spring") ; memoVO.setContent("spring content") ;
+        list.add(memoVO) ;
+        memoVO = new MemoVO() ;
+        memoVO.setTitle("android") ; memoVO.setContent("android content") ;
+        list.add(memoVO) ;
 
         recycleView = findViewById(R.id.recycleView) ;
         RecyclerView.LayoutManager layoutManager =
                 new LinearLayoutManager(this,
-                        LinearLayoutManager.HORIZONTAL, false);
-        recycleView.setLayoutManager(layoutManager);
+                        LinearLayoutManager.VERTICAL, false) ;
+        recycleView.setLayoutManager(layoutManager) ;
         recycleView.setAdapter(new MyRecycleAdapter(list)) ;
+        recycleView.setOnClickListener( view -> {
+            AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+            builder.setMessage("아이템이 선택됨").create() ;
+        });
 
     }
 }

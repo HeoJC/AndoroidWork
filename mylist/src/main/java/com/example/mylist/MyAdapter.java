@@ -25,11 +25,7 @@ public class MyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         LayoutInflater inflater = LayoutInflater.from(viewGroup.getContext()) ;
         view = inflater.inflate(R.layout.list_item , viewGroup , false) ;
-        TextView txtName = view
-
-
-
-                .findViewById(R.id.txtName) ;
+        TextView txtName = view.findViewById(R.id.txtName) ;
         TextView txtAddr = view.findViewById(R.id.txtAddr) ;
         txtName.setText(data.get(i).get("name")) ;
         txtAddr.setText(data.get(i).get("addr")) ;
