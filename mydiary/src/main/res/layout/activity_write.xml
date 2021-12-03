@@ -83,13 +83,14 @@
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <Button
-        android:id="@+id/btnUpdate"
-        android:layout_width="44dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:text="수정"
-        app:layout_constraintStart_toEndOf="@+id/btnImage"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="사진첩"
+        app:layout_constraintEnd_toEndOf="@+id/editTitle"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,8 +18,9 @@ public class DBHelper extends SQLiteOpenHelper {
         String sql = "create table if not exists diary("
                 + " _id integer PRIMARY KEY autoincrement, "
                 + " title text, "
-                + " content integer, "
-                + " time text)" ;
+                + " content text, "
+                + " time text, "
+                + " img text)" ;
         db.execSQL(sql) ;
         sql = "insert into diary (title , content , time) values ('t1' , 'content1' , '2021-12-02')" ;
         db.execSQL(sql) ;

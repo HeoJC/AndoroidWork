@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.INotificationSideChannel;
@@ -13,6 +14,8 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                             intent.putExtra("title" , list.get(position).getTitle()) ;
                             intent.putExtra("content" , list.get(position).getContent()) ;
                             intent.putExtra("time" , list.get(position).getTime()) ;
+                            intent.putExtra("img" , list.get(position).getImg()) ;
                             startActivity(intent);
                         })
                         .create()
