@@ -14,7 +14,7 @@
         <entry key="..\:/dev/androidwork/AndroidProject/mydiary/src/main/res/layout/activity_main.xml" value="0.16574074074074074" />
         <entry key="..\:/dev/androidwork/AndroidProject/mydiary/src/main/res/layout/activity_view.xml" value="0.16574074074074074" />
         <entry key="..\:/dev/androidwork/AndroidProject/mydiary/src/main/res/layout/activity_write.xml" value="0.33" />
-        <entry key="..\:/dev/androidwork/AndroidProject/mydiary/src/main/res/layout/listview_item.xml" value="0.18" />
+        <entry key="..\:/dev/androidwork/AndroidProject/mydiary/src/main/res/layout/listview_item.xml" value="0.33" />
         <entry key="..\:/dev/androidwork/AndroidProject/myfile/src/main/res/layout/activity_main.xml" value="0.25842696629213485" />
         <entry key="..\:/dev/androidwork/AndroidProject/myhttp/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/dev/androidwork/AndroidProject/mylayout/src/main/res/layout/activity_main.xml" value="0.25925925925925924" />
@@ -23,8 +23,27 @@
         <entry key="..\:/dev/androidwork/AndroidProject/mylist/src/main/res/layout/list_item.xml" value="0.22" />
         <entry key="..\:/dev/androidwork/AndroidProject/mypet/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/dev/androidwork/AndroidProject/myprovider/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/dev/androidwork/AndroidProject/mywebview/src/main/res/layout/activity_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/mywebview/src/main/res/layout/fragment_first.xml" value="0.29814814814814816" />
         <entry key="..\:/dev/androidwork/AndroidProject/mywidget/src/main/res/layout/activity_calc.xml" value="0.36614583333333334" />
         <entry key="..\:/dev/androidwork/AndroidProject/mywidget/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/layout/activity_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/layout/app_bar_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/layout/board_fragment.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/layout/content_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/layout/nav_header_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/menu/activity_main_drawer.xml" value="0.36" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test02_20211213/src/main/res/menu/main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/activity_main.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_blank.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_board.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_board2.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_dashboard.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_home.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_item.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_item_list.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/layout/fragment_notifications.xml" value="0.29814814814814816" />
+        <entry key="..\:/dev/androidwork/AndroidProject/test_20211213/src/main/res/menu/bottom_nav_menu.xml" value="0.29814814814814816" />
       </map>
     </option>
   </component>

@@ -22,7 +22,10 @@
             <option value="$PROJECT_DIR$/mylist" />
             <option value="$PROJECT_DIR$/mypet" />
             <option value="$PROJECT_DIR$/myprovider" />
+            <option value="$PROJECT_DIR$/mywebview" />
             <option value="$PROJECT_DIR$/mywidget" />
+            <option value="$PROJECT_DIR$/test02_20211213" />
+            <option value="$PROJECT_DIR$/test_20211213" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
